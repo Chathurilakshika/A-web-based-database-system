@@ -1,0 +1,42 @@
+ Body {
+ Font-family: Arial, sans-serif;
+ Background-color: #f0f0f0;
+ Margin: 0;
+ Padding: 20px;
+ }
+ .container {
+ Max-width: 1200px;
+ Margin: 0 auto;
+ Background-color: #fff;
+ Padding: 20px;
+ Border-radius: 5px;
+ Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ H1 {
+ Text-align: center;
+ }
+ Form {
+ Margin-bottom: 20px;
+ }
+ Input, select, textarea {
+ Width: 100%;
+ Padding: 10px;
+ Margin: 5px 0 10px 0;
+ Border: 1px solid #ccc;
+ Border-radius: 5px;
+ }
+ Input[type=”submit”] {
+ Background-color: #4CAF50;
+ Color: white;
+ Border: none;
+ Cursor: pointer;
+ }
+ Input[type=”submit”]:hover {
+ Background-color: #45a049;
+ }
+ .form-section {
+ Margin-bottom: 40px;
+ }
+ .form-section h2 {
+ Margin-bottom: 10px;
+ }
